@@ -1,0 +1,61 @@
+body{
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100vh;
+ justify-content: center;
+ background-image: url("https://media.pitchfork.com/photos/5929aed09d034d5c69bf45f4/master/pass/9c17ddf5.jpg");
+  background-repeat :initial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-size: cover;
+  overflow: hidden;
+  
+
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-align: center;
+     color: beige;
+}
+.clock{
+   display: flex;
+}
+.clock div {
+ margin: 10px;
+ position: relative;
+}
+.clock span {
+  width: 100px;
+   height: 80px;
+   background-color: rgb(20, 19, 18);
+   opacity: .8; 
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   text-shadow: 2px 2px 4px black;
+}
+.clock .text{
+     height: 30px;
+     font-size: 20px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     background-color:  rgb(0, 0, 0); ;
+}
+.clock #AMPM {
+  bottom: 0;
+  position: absolute;
+ width: 70px;
+ height : 35px;
+ font-size: 20px;
+ background-color: brown;
+}
+#AMPM {
+  border-radius: 15px;
+  box-shadow: 0 5px 5px black;
+}
+
